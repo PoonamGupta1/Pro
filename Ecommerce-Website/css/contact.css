@@ -1,0 +1,21 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+}
+.contact {
+        height:400px;
+        width:1000px;
+    background-color:pink;
+}
+
+
+@media ( min-width:100px) and (max-width:1200px) {
+    .contact {
+        height:400px;
+        width:500px;
+    background-color:pink;
+
+}
+}
