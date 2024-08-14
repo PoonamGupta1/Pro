@@ -1,0 +1,37 @@
+form {
+    height: 65vh;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5%;
+    box-shadow: 1px 2px 3px 1px;
+}
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+
+h3 {
+    text-align: center;
+    color: rgb(13, 166, 226);
+}
+
+@media  (max-width:550px){
+  .form{
+        width: 400px;
+        height:400px;
+        font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width:550px)and(max-width:1024px) {
+    .form {
+        font-size: 1.2rem;
+        height: 550px;
+    }
+}
